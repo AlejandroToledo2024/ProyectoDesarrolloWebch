@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  height: 300%;
+  background-image: url(/assets/Fondo1.jpg);
+}
+
+.navbar a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.carousel-item {
+  min-height: 400px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.carousel-caption P {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.services {
+  padding: 80px 0;
+}
+
+.box-icons i {
+  font-size: 20px;
+  font-weight: 8000;
+}
+
+.sections {
+  padding: 80px 0;
+  margin-top: 50px;
+}
+
+.size {
+  width: 150px;
+  height: 150px;
+}
+
+.altura {
+  height: 360px;
+}
+
+.navbar {
+  background-color: cornflowerblue;
+}
+
+.card {
+  background-color: #9685cc;
+}
+
+.colorCard {
+  background-color: #c0b78c;
+}
+
+.backText {
+  background-color: #9688dd;
+}
+
+.footer {
+  background-color: #9688dd;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  animation: blur-out-expand 1s infinite alternate;
+}
+
+@keyframes blur-out-expand {
+  0% {
+    transform: scale(1);
+    filter: blur(0.01px);
+  }
+  100% {
+    transform: scale(2);
+    filter: blur(12px);
+    opacity: 0;
+  }
+}
+.color {
+  background-color: #9685cc;
+}
+
+h1 {
+  text-decoration: underline;
+  background-color: cornflowerblue;
+}
+
+/*# sourceMappingURL=style.css.map */
